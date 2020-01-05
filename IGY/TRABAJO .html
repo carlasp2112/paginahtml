@@ -1,0 +1,181 @@
+<!--horario 1-->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Horario clase</title>
+		<meta charset="UTF-8">
+		<p><strong><center>NUESTRA PRIMERA PAGINA WEB<center></strong></p>
+		<P><strong>CARLA SAAVEDRA Y ANA IZQUIERDO</strong></P>
+		<link rel="stylesheet" href="miestilo.css">
+		<script src="javascript.js"></script>
+	</head>
+	
+	<body id="body" onload="remarcarDia()">
+		<div>
+			<hr>
+			<div id="columna1">
+				<div id="reloj_contenedor">
+					<div id="reloj">
+						<br>
+						<h1 id="reloj_texto"></h1>
+					</div>	
+				</div>
+				
+				<div id="tiempo_contenedor">
+					<!-- weather widget start --><a target="_blank" href="https://hotelmix.es/weather/valladolid-18271"><img src="https://w.bookcdn.com/weather/picture/1_18271_1_4_137AE9_219_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=582&anc_id=3742"  alt="booked.net"/></a><!-- weather widget end -->
+
+				</div>
+				
+				<div id="contador_contenedor">
+
+					<div id="contador">
+						<h1 id="contador_texto"></h1>
+					</div>
+					
+				</div>
+			</div>
+			
+			<div id="columna2">
+				<div id="horario_contenedor">		
+					<table class="horario" border="4" >
+						<tr>
+							<td class="horarioinicial" colspan="8"><center><strong>HORARIO</strong></center></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td id="lunes" ><p><center><strong>Lunes</strong></p></center></td>
+							<td id="martes"><p><center><strong>Martes</strong></p></center></td>
+							<td id="miercoles"><p><center><strong>Miercoles</strong></p></center></td>
+							<td id="jueves"><p><center><strong>Jueves</strong></p></center></td>
+							<td id="viernes"><p><center><strong>Viernes</strong></p></center></td>
+							<td id="sabado"><p><center><strong>Sabado</strong></p></center></td>
+							<td id="domingo"><p><center><strong>Domingo</strong></p></center></td>
+						</tr>
+						<tr>
+							<td><strong>8:30-9:20</strong></td>
+							<td class="TIC">TIC</td>
+							<td class="química">Química</td>
+							<td class="química">Química</td>
+							<td class="química">Química</td>
+							<td class="química">Química</td>
+							<td class="finde" rowspan="7"><center>F<br>I<br>N<br>D<br>E</center></td>
+							<td class="finde" rowspan="7"><center>F<br>I<br>N<br>D<br>E</center></td>
+							
+						</tr>
+						<tr>
+							<td><strong>9:25-10:15</strong></td>
+							<td class="lengua">Lengua</td>
+							<td class="inglés">Ingles</td>
+							<td class="biología">Biología</td>
+							<td class="lengua">Lengua</td>
+							<td class="TIC">TIC</td>
+						</tr>
+						<tr>
+							<td><strong>10:20-11:10</strong></td>
+							<td class="física">Física</td>
+							<td class="biología">Biología</td>
+							<td class="matematicas">Matemáticas</td>
+							<td class="TIC">TIC</td>
+							<td class="física">Física</td>
+						</tr>
+						<tr>
+							<td><strong>11:10-11:35</strong></td>
+							<td colspan="5" class="recreo"><center><strong>Recreo</strong></center></td>
+						</tr>
+						<tr>
+							<td><strong>11:40-12:30</strong></td>
+							<td class="biología">Biología</td>
+							<td class="lengua">Lengua</td>
+							<td class="inglés">Inglés</td>
+							<td class="matematicas">Matemáticas</td>
+							<td class="inglés">Inglés</td>
+						</tr>
+						<tr>
+							<td><strong>12:35-13:25</strong></td>
+							<td class="matematicas">Matemáticas</td>
+							<td class="historia">Historia</td>
+							<td class="física">Física</td>
+							<td class="biología">Biología</td>
+							<td class="historia">Historia</td>
+						</tr>
+						<tr>
+							<td><strong>13:30-14:20</strong></td>
+							<td class="historia">Historia</td>
+							<td class="matematicas">Matemáticas</td>
+							<td class="historia">Historia</td>
+							<td class="física">Física</td>
+							<td class="lengua">Lengua</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div id="processing">
+					<script src="p5.js"></script>
+					<script src="sketch.js"></script>	
+				</div>
+			</div>
+			
+			<div id="columna3">
+				<div id="notas_contenedor">
+				
+					<table class="notas" border="0" >
+						<tr>
+							<td><center>Matemáticas</center></td>
+							<td><input type="text" class="media" id="n1" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Lengua</center></td>
+							<td><input type="text" class="media" id="n2" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>TIC</center></td>
+							<td><input type="text" class="media" id="n3" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Biología</center></td>
+							<td><input type="text" class="media" id="n4" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Química</center></td>
+							<td><input type="text" class="media" id="n5" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Física</center></td>
+							<td><input type="text" class="media" id="n6" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Inglés</center></td>
+							<td><input type="text" class="media" id="n7" ></td>
+						</tr>
+						
+						<tr>
+							<td><center>Historia</center></td>
+							<td><input type="text" class="media" id="n8" ></td>
+						</tr>
+					</table>
+					
+					<div style="margin-left: 70px">
+						<br>
+						<button onclick="vaciar()">Vaciar</button>
+						<button onclick="media()">Calcular media</button>
+					</div>
+					
+					<div id="media_box">
+						<h2 id="media">0.0</h2>
+					</div>
+
+				</div>
+			</div>
+			
+			<div style="clear: left"></div>	
+			
+		</div>
+	</body>
+</html>	

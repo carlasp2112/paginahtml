@@ -1,0 +1,235 @@
+#body{
+				text-align: left;
+				margin-left: 30px;
+				margin-right: 30px;
+				background-repeat: no-repeat;
+				background-size: 1600px 1000px;
+			}
+
+			/* CSS de las tres columnas en las que se divide el cuerpo de la página */
+
+			#columna1{
+				float: left;
+				width: 250px;
+				//background-color:lightblue;                  
+			}
+
+			#columna2{
+				float: left;
+				width: 800px;
+				//background-color:lightgreen;                  
+			}
+
+			#columna3{
+				float: left;
+				width: 250px;
+				margin-left: 100px;
+				//background-color:lightyellow;                  
+			}
+			
+			/* CSS del reloj */
+			
+			#reloj_contenedor {
+				width: 200px;
+				margin-left: 50px;
+				margin-top: 70px;
+				margin-bottom: 20px;                  
+			}
+
+			#reloj{
+				background-color: #9999e6;     
+				border-color: #5c5cd6; 
+				color: white;            
+				height:110px;
+				width: 194px;
+				border:inset #66b3ff 3px;
+				border-radius: 10px;
+				
+			}
+
+			#reloj_texto{
+				text-align: center;
+				font-size: 30px;
+			}
+			
+			/* CSS del tiempo */
+
+			#tiempo_contenedor {
+				width: 200px;
+				margin-left: 40px; 
+				margin-top: 70px;
+				margin-bottom: 50px;               
+			}
+			
+			/* CSS del contador de horas */
+
+			#contador_contenedor{
+				width: 180px;
+				margin-left: 60px;
+				margin-top: 70px;
+				margin-bottom: 20px; 
+			}
+
+			#contador{
+				background-color: #ddde35;     
+				color: gray;            
+				height:110px;
+				width: 174px;
+				border:inset #66b3ff 3px;
+				border-radius: 10px;
+			}
+
+			#contador_texto{
+				text-align: center;
+				font-size: 22px;
+			}
+			
+			/* CSS del horario */
+			
+			#horario_contenedor {
+			   
+			   margin-left: 90px;
+			   margin-top: 20px;
+			   margin-bottom: 20px;
+			   width: 750px;                 
+			}
+
+			table.horario {
+				background-color:#d9d9d8;
+				text-align: center;
+				//margin: -300px 100px 100px 400px;
+				width: 100%;
+				table-layout: fixed;
+			}
+			
+			.horarioinicial {
+				text-align: center;
+				padding: 8px;
+			}
+			.matematicas {
+				background-color: red;
+				text-align: center;
+				padding: 8px;
+			}
+			.química {
+				background-color: #ffdd33;
+				text-align: center;
+				padding: 8px;
+			}
+			.lengua {
+				background-color: #4da6ff;
+				text-align: center;
+				padding: 8px;
+			}
+			.TIC {
+				background-color: #cc33ff;
+				text-align: center;
+				padding: 8px;
+			}
+			.física {
+				background-color: #ffa64d;
+				text-align: center;
+				padding: 8px;
+			}
+			.historia {
+				background-color: #40FFBE;
+				text-align: center;
+				padding: 8px;
+			}
+			.inglés {
+				background-color: #ff00cc;
+				text-align: center;
+				padding: 8px;
+			}
+			.biología {
+				background-color: #37de25;
+				text-align: center;
+				padding: 8px;
+			}
+			.finde{
+				background-color:#e6f7ff;
+				font-size: 28px;
+				padding: 8px;
+			}
+			
+			#lunes {
+				color:blue;
+				background-color:#ccf2ff;
+				text-align: center;
+				padding: 6px;
+			}
+			#martes {
+				color:red;
+				background-color:#ffcccc;
+				text-align: center;
+				padding: 6px;
+			}
+			#miercoles {
+				color:#cccc00;
+				background-color:#ffffcc;
+				text-align: center;
+				padding: 6px;
+			}
+			#jueves {
+				color:purple;
+				background-color:#f2ccff;
+				text-align: center;
+				padding: 6px;
+			}
+			#viernes {
+				color:orange;
+				background-color:#ffecb3;
+				text-align: center;
+				padding: 6px;
+			}
+			#sabado {
+				color:green;
+				background-color:#ccffe6;
+				text-align: center;
+				padding: 6px;
+			}
+			#domingo {
+				color:#ff00cc;
+				background-color:#ffccff;
+				text-align: center;
+				padding: 6px;
+			}
+			#recreo {
+				color:green;
+				background-color:#ccffe6;
+			}
+			
+			
+			/* CSS del processing */
+				
+			#processing{
+				margin-left: 90px;
+			    margin-top: 40px;
+			    margin-bottom: 20px;
+				width: 700px;
+			}
+
+
+			/* CSS de las notas */
+
+			#notas_contenedor {
+				background-color: #ccf2ff;
+				width: 300px;
+				margin-left: 10px;
+				margin-top: 90px;
+				margin-bottom: 100px; 
+			}
+
+			table.notas_contenedor {
+				text-align: left;
+				width: 250px;
+				table-layout: fixed;
+			}
+			
+			#media {
+			    color: green;
+			    background-color: white;
+			    text-align: center;
+			    margin-left: 50px;
+			    margin-right: 50px;
+			}
